@@ -1,0 +1,81 @@
+
+body{
+	background-color:#E6C71E;
+}
+
+#header{
+	background-color:#FFF;
+	color:#000;
+	font:normal 14px Arial, sans-serif;
+}
+
+h1{
+	font-weight:600; 
+	font-size:32px; 
+	color:#213D87;
+}
+
+h3{
+	font: Arial, sans-serif;
+}
+
+#img-div{
+	padding:1px;
+	max-width:100%;
+	display: block;
+	height: auto;
+}
+
+.hopeworld {
+	float:right;
+	margin: 5px;
+}
+
+hr{
+	border: 2px solid #559187;
+	margin:3px;
+}
+
+
+#tribute-info{
+	text-align:left;
+	height:auto;
+	width:auto;
+	background-color:#FFF;
+	margin:5px;
+	font-size:18px;
+}
+
+
+#main{
+	text-align:center;
+	background-color:#FFF;
+	width:auto;
+	height:1000px;
+	margin:0 auto;
+	border:3px solid #ECAB09;
+}
+
+
+
+@media screen and (max-width: 800px) {
+	#main{ 
+		text-align:center;
+		background-color:#FFF;
+		width:100%;
+		height:900px;
+		margin:0 auto;
+		padding:0;
+		border:3px solid #316BDA; }
+
+	img{
+		max-width:50%;
+		height: auto; }
+
+	#tribute-info{
+		height:auto;
+		width:95%;
+		font-size:12px;
+		}
+    
+}
